@@ -11,16 +11,16 @@ s.description      = <<-DESC
 DESC
 
 s.homepage         = "https://github.com/zjjzmw1/CacheURL"
-s.license          = 'MIT'
+s.license          = "MIT"
 s.author           = { "张明炜" => "zjjzmw1@163.com" }
 
-s.source           = { :git => "https://github.com/zjjzmw1/CacheURL.git", :tag => s.version.to_s }
-s.platform     = :ios, '7.0'
+s.source           = { :git => "https://github.com/zjjzmw1/CacheURL.git", :tag => "1.0.0" }
+s.platform     = :ios, "7.0"
 
 s.requires_arc = true
 
-s.source_files = 'MyClasses/*'
+s.source_files = "MyClasses/*"
 
-s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'
+s.frameworks = "Foundation", "CoreGraphics", "UIKit"
 
 end
